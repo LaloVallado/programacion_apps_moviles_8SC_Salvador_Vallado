@@ -1,0 +1,37 @@
+name: proyecto67
+description: "Sistema de Monitoreo ITM - Microclima y Control Visual"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Librería para iconos de iOS
+  cupertino_icons: ^1.0.8
+  
+  # Librería para peticiones a internet (ESP32/API)
+  http: ^1.2.1
+  
+  # Librería para el placeholder transparente de imágenes
+  transparent_image: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Herramienta para integración y pruebas de rendimiento
+  integration_test:
+    sdk: flutter
+    
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Sección para tus imágenes locales
+  assets:
+    - assets/

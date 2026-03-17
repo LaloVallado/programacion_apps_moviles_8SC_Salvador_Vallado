@@ -1,0 +1,28 @@
+name: proyecto71
+description: "Motor de Física y UI Técnica - Proyecto ITM"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos estándar
+  cupertino_icons: ^1.0.8
+
+  # Librería para fuentes automáticas (Orbitron y Share Tech Mono)
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Nota: Se eliminó la sección 'fonts' local para evitar el error de 
+  # "unable to locate asset", ya que google_fonts maneja la descarga.

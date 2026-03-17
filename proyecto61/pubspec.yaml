@@ -1,0 +1,41 @@
+name: proyecto61
+description: "Sistema de Control de Microclima - Ingeniería ITM"
+publish_to: 'none'
+
+# Versión del software
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Iconos estándar de iOS
+  cupertino_icons: ^1.0.8
+  
+  # Fuente profesional sin necesidad de descargar archivos .ttf
+  google_fonts: ^6.2.1
+  
+  # Paquete para peticiones HTTP (lo usaremos para hablar con el ESP32)
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Reglas de estilo de código
+  flutter_lints: ^3.0.0
+  
+  # Herramientas para Tests y Mocks que configuramos antes
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+
+flutter:
+  # Habilita el uso de iconos de Material Design
+  uses-material-design: true
+
+  # NOTA DE INGENIERÍA:
+  # No es necesario declarar "fonts:" aquí si usas Google Fonts.
+  # El paquete se encarga de todo el manejo de assets dinámicamente.
